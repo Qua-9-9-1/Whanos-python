@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: whanos-app
-        image: gcr.io/kubernetes-whanos-444012/whanos/whanos-app-python
+        image: docker.io/poubellito/whanos:aaaaa-python
         ports:
         - containerPort: 80
 ---
