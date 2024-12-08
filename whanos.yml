@@ -15,6 +15,7 @@ spec:
       containers:
       - name: whanos-app
         image: aaaa
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
 ---
